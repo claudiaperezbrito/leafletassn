@@ -28,6 +28,8 @@ body {
 
 #sometext {
   margin: auto; /* this centers the div to basically line in center with map DIV */
+  font-size: 1.30rem;
+  line-height: 1.5rem;
   width:800px; /*makes div length of the map b/c ABOVE I define map div*/
   padding-top: 1.5rem;
   padding-bottom: 3rem;
@@ -60,6 +62,8 @@ body {
 }
 #sometext {
   width:600px; /*makes div length of the map b/c ABOVE I define map div*/
+  font-size: 1rem;
+  line-height: 1.25rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
