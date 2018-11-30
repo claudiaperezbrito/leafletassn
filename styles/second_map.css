@@ -1,0 +1,97 @@
+
+#map {
+  height: 400px;
+  margin: auto;
+  width: 800px
+
+}
+
+#sitename {
+    font-family: serif;
+    font-size: 1.75rem;
+    line-height: 4rem;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+    margin: auto;
+    width: 800px;
+    /*ALIGN HEADING WITH THE MAP!!!!!*/
+
+}
+
+body {
+    font-family:sans-serif;
+    background: #A6E89B; /* keep */
+    color: #333; /* keep */
+    margin: auto; /* keep */
+}
+
+
+#sometext {
+  margin: auto; /* this centers the div to basically line in center with map DIV */
+  width:800px; /*makes div length of the map b/c ABOVE I define map div*/
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*MEDIA QUERIES ARE BELOW*/
+
+/*MEDIA QUERY 2*/
+@media screen and (max-width: 850px) {
+
+
+#map {
+  height: 400px;
+  margin: auto;
+  width: 600px
+}
+
+#sitename {
+    font-size:1.9rem;
+    line-height: 4rem;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+    width:600px;
+    /*ALIGN HEADING WITH THE MAP!!!!!*/
+
+}
+
+body {
+    font-size: 1rem;
+}
+#sometext {
+  width:600px; /*makes div length of the map b/c ABOVE I define map div*/
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+}/*END OF MEDIA QUERY 2*/
+
+/*MEDIA QUERY 1 */
+
+@media screen and (max-width: 500px) {
+
+
+#map {
+  height: 390px;
+  width: 350px
+}
+
+#sitename {
+    font-size:1.25rem;
+    line-height: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+    width: 350px;
+    /*ALIGN HEADING WITH THE MAP!!!!!*/
+
+}
+
+body {
+    font-size: .80rem;
+}
+#sometext {
+  width:350px; /*makes div length of the map b/c ABOVE I define map div*/
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+}   /*END OF MEDIA QUERY 1*/
